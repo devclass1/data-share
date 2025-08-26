@@ -5,7 +5,7 @@ x = [1, 2, 3, 4, 5]
 y = [2, 5, 3, 8, 6]
 
 # Line Plot
-plt.figure(figsize=(10, 4))
+plt.figure(figsize=(10, 4)) # 10" wide × 4" tall figure
 plt.subplot(1, 2, 1)  # 1 row, 2 columns, 1st plot
 plt.plot(x, y, marker='o', color='blue')
 plt.title("Basic Line Plot")
